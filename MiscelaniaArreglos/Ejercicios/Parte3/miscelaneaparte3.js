@@ -92,5 +92,19 @@ function Ejercicio10() {
     }
 }
 function Ejercicio11() {
-    
+  let arreglo =[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+  for (let i = 0; i < arreglo.length; i++) {
+    console.log(" 5 x ",arreglo[i], " = ", arreglo[i]*5);;
+  }
+}
+function Ejercicio12() {
+  let arreglo = [5, 7, 90, 2, 5, 3, 8, 99]
+  arreglo.forEach(function (num1){
+    arreglo.forEach(function (num2){
+      if (num1+1==num2) {
+        console.log(num1,num2, " Son consecutivos")
+      }
+    })
+  
+  })
 }
